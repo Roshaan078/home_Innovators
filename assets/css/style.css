@@ -1,0 +1,122 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #542415;
+    color: #E4B34B;
+}
+.heading{
+    text-align: center;
+}
+.Heading_name{
+    font-size: 10rem;
+    margin-top: 6%;
+    margin-bottom: 4%;
+}
+.subheading{
+    font-size: 5rem;
+}
+.content{
+    text-align: center;
+    font-size: 2rem;
+    margin: 0 20%;
+}
+footer{
+    font-size: 1.5rem;
+    margin-top: 9%;
+    display: flex;    
+    justify-content: center;
+    align-items: self-end;
+
+}
+
+button{
+    background-color: #E4B34B;
+    border-radius: 8px;
+    padding: 1% 2%;
+    font-size: 2rem;
+    cursor: pointer;
+    border: none;
+    margin: 0 1rem 0 1rem;
+    transition: transform 0.3s ease;
+}
+button a{
+    text-decoration: none;
+    color: #542415;
+    font-weight: bolder;
+    
+}
+button:hover{
+    background-color: #542415;
+    color: #FDFEFF;
+    border: 2px solid #E4B34B;
+}
+button a:hover{
+    color: white;
+}
+.header_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.header_image{
+    height: 14rem;
+    width: auto;
+    padding-top: 3rem;
+}
+.social_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.social_icons a img{
+    height: 4rem;
+    width: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-right: 2rem;
+    margin-bottom: -1rem;
+}
+
+
+@media (max-width: 391px) {
+    body{
+        padding: 3rem;
+    }
+    .Heading_name{
+        font-size: 4rem;
+        margin-top: 10%;
+        margin-bottom: 4%;
+    }
+    .subheading{
+        font-size: 3rem;
+    }
+    .content{
+        font-size: 1.5rem;
+        margin: 0 5%;
+        line-height: 4rem;
+    }
+    button{
+        font-size: 1.5rem;
+        padding: 1% 1%;
+        margin: 0 1rem 0 1rem;
+    }
+    footer{
+        font-size: 1rem;
+        margin-top: 20%;
+    }
+    .header_image{
+        height: 10rem;
+        width: auto;
+        padding-top: 3rem;
+    }
+    .social_icons a img{
+        height: 3rem;
+        width: auto;
+        margin-right: 1rem;
+        margin-bottom: -0.5rem;
+    }
+}
