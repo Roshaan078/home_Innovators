@@ -120,3 +120,43 @@ button a:hover{
         margin-bottom: -0.5rem;
     }
 }
+
+@media (max-width: 768px) and (min-width: 392px) {
+    body{
+        padding: 4rem;
+    }
+    .Heading_name{
+        font-size: 5rem;
+        margin-top: 7%;
+        margin-bottom: 4%;
+    }
+    .subheading{
+        font-size: 4rem;
+    }
+    .content{
+        font-size: 1.8rem;
+        margin: 0 10%;
+        line-height: 4rem;
+    }
+    button{
+        font-size: 1.8rem;
+        padding: 1% 1%;
+        margin: 0 1rem 0 1rem;
+    }
+    footer{
+        font-size: 1.2rem;
+        margin-top: 15%;
+    }
+    .header_image{
+        height: 12rem;
+        width: auto;
+        padding-top: 3rem;
+    }
+    .social_icons a img{
+        height: 3.5rem;
+        width: auto;
+        margin-right: 1.5rem;
+        margin-bottom: -0.7rem;
+    }
+    
+}
